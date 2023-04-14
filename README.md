@@ -1,2 +1,4 @@
 # HashMap-vs-BST
-Implementation and comparison of HashMap and Binary Search Tree
+Implementacja HashMapy i drzewa BST oraz porównanie ich właściwości.
+
+Kody źródłowe struktur znajdują się w oddzielnych plikach. 
