@@ -1,0 +1,8 @@
+# ninja log v5
+2	166	7084784525709057	build.ninja	49b265ac5ea4f741
+8	466	7084695375332391	CMakeFiles/untitled5.dir/myhash.cpp.obj	2814fcc6f56047ab
+2	432	7084770938109459	CMakeFiles/untitled5.dir/main.cpp.obj	fefe2615cd9bc170
+433	543	7084770939169822	untitled5.exe	28bcfa8c7fc56694
+3	456	7084784560916945	CMakeFiles/untitled5.dir/myhash.cpp.obj	9e9ca0161f101eae
+13	543	7084784561786327	CMakeFiles/untitled5.dir/main.cpp.obj	d02f842d4df06f58
+543	660	7084784562896568	untitled5.exe	28bcfa8c7fc56694
