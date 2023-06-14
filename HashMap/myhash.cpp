@@ -147,12 +147,5 @@ void myhash::czyscTablice() {
     }
 }
 
-bool myhash::czyTablicaPusta() {
-    for (int i = 0; i < rozmTab; i++) {
-        if (hashTab[i] != nullptr) {
-            return false;
-        }
-    }
-    return true;
-}
+
 

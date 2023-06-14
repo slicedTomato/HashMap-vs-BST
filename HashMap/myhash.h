@@ -19,10 +19,7 @@ public:
     void dodajObiekt(string imie, string nazwisko);
     void znajdzNazwisko(string imie);
     void usunObiekt(string imie);
-
     void czyscTablice();
-
-    bool czyTablicaPusta();
 };
 
 

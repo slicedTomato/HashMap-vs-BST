@@ -9,8 +9,6 @@
 
 int main() {
 
-
-
     myhash hashTable;
 
     std::ifstream file("C:/Users/48669/Downloads/imiona-i-nazwiska.csv");
@@ -35,12 +33,12 @@ int main() {
     }
 
     auto end = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
 
-    std::cout << "Dodano " << count << " obiektów do tablicy w czasie: " << duration << " ms" << std::endl;
+    std::cout << "Dodano " << count << " obiektów do tablicy w czasie: " << duration << " microseconds" << std::endl;
 
     file.close();
-    std::string imieDoWyszukania = "Rak"; // Przykładowe imię do wyszukania
+    std::string imieDoWyszukania = "Emilia"; // Przykładowe imię do wyszukania
 
     start = std::chrono::high_resolution_clock::now();
 
@@ -51,7 +49,7 @@ int main() {
 
     std::cout << "Czas wyszukiwania nazwiska: " << duration << " microseconds" << std::endl;
 
-    std::string imieDoUsuniecia = "Rak"; // Przykładowe imię do usunięcia
+    std::string imieDoUsuniecia = "Emilia"; // Przykładowe imię do usunięcia
 
     start = std::chrono::high_resolution_clock::now();
 
@@ -63,11 +61,7 @@ int main() {
     std::cout << "Czas usuwania obiektu: " << duration << " microseconds" << std::endl;
 
     hashTable.czyscTablice(); // Wyczyść tablicę
-    if (hashTable.czyTablicaPusta()) {
-        std::cout << "Tablica jest pusta." << std::endl;
-    } else {
-        std::cout << "Tablica nie jest pusta." << std::endl;
-    }
+
     return 0;
 }
 
